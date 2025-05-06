@@ -3,7 +3,7 @@ spring:
     name: web-app  
 
   datasource:
-    url: jdbc:mysql://mysql:3306/healthcare_db 
+    url: jdbc:mysql://mysql:3306/patientdb
     username: ${DB_USERNAME:root}  
     password: ${DB_PASSWORD:Sabrin95@}  
     driver-class-name: com.mysql.cj.jdbc.Driver  
