@@ -3,7 +3,7 @@ patient-service:
     datasource:
       url: jdbc:mysql://mysql:3306/patientdb?createDatabaseIfNotExist=true
       username: root
-      password: Sabrin95@
+      password: Sabrin95.
       driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
       hibernate:
