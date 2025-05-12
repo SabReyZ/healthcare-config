@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/SabReyZ/healthcare-config  
+          uri: https://github.com/SabReyZ/healthcare-config.git  
           default-label: main
           clone-on-start: true  
 

@@ -1,16 +1,15 @@
 spring:
   application:
-    name: eureka-server  
-
+    name: eureka-server
   config:
-    import: optional:configserver:http://config-server:8071
+    import: "optional:configserver:http://localhost:8071/"
 
 eureka:
   instance:
-    hostname: localhost  
+    hostname: localhost
   client:
-    register-with-eureka: false  
-    fetch-registry: false  
+    register-with-eureka: false
+    fetch-registry: false
   server:
-    wait-time-in-ms-when-sync-empty: 0  
+    wait-time-in-ms-when-sync-empty: 0
 
