@@ -3,11 +3,7 @@ spring:
     name: eureka-server  
 
   config:
-<<<<<<< HEAD
     import: optional:configserver:http://config-server:8071
-=======
-    import: optional:configserver:http://localhost:8888 
->>>>>>> db240ba0d265faaea5ef0b554654590afb87ac77
 
 eureka:
   instance:
