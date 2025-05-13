@@ -14,7 +14,7 @@ spring:
     init:
       mode: always
   config:
-    import: "optional:configserver:http://localhost:8071/"
+    import: "optional:config-server:http://localhost:8071/"
 
 eureka:
   instance:
